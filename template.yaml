@@ -200,7 +200,7 @@ Resources:
         dnf install -y httpd
         systemctl start httpd
         systemctl enable httpd
-        echo "Your Name - Lab" > /var/www/html/index.html
+        echo "Alfred Dey - Securely Deploying resources in VPC using CloudFormation" > /var/www/html/index.html
 
   PublicEC2Instance2:
     Type: AWS::EC2::Instance
@@ -216,7 +216,7 @@ Resources:
         dnf install -y httpd
         systemctl start httpd
         systemctl enable httpd
-        echo "Your Name - Lab" > /var/www/html/index.html
+        echo "Alfred Dey - Securely Deploying resources in VPC using CloudFormation" > /var/www/html/index.html
 
   PrivateEC2Instance1:
     Type: AWS::EC2::Instance
